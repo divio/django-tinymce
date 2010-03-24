@@ -7,7 +7,7 @@ app_name = metadata.name
 version = metadata.version
 
 setup(
-    name = "django-%s" % app_name,
+    name = "django-%s-dev" % app_name,
     version = version,
 
     packages = [app_name, '%s.templatetags' % app_name],
